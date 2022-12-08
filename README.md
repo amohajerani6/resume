@@ -1,17 +1,31 @@
-# "React Login Authentication with JWT Access, Refresh Tokens, Cookies and Axios"
+<h2>Resume sharing website</h2>
 
-✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+<i>mysite.com</i>
+This link take you to a login page and has a link to registration page. If already logged in, it takes you to the homepage.
 
-**Description:**
+<i>mysite.com/extention</i>
+This shows the document the the user shares with public. A user can generate multiple extentions, just like people may like to have multiple resumes.
 
-This repository shares the code applied during the [YouTube Tutorial](https://youtu.be/nI8PYZNFtac). 
+<b>The homepage</b>
+The logged-in user can manage extentions:
 
-Build the backend REST API that I use for authentication in this tutorial with my [7 hour Node JS for Beginners course](https://youtu.be/f2EqECiTBL8) on my channel.
+- Create a new extention
+- Delete an extention
+- Update an extention
+- See the traffic on an extention
 
-Just starting with React? I have a [9 hour React course tutorial video](https://youtu.be/RVFAyFWO4go) on my channel.  
+<b>Roadmap</b>
 
-I suggest completing my [8 hour JavaScript course tutorial video](https://youtu.be/EfAl9bwzVZk) before attempting React if you are new to Javascript.
+<ol>
+ <li> Create the authentication piece (login, registration, logout, and a homepage)</li>
+ <li> Allow adding extentions if it is not taken, and list all their extentions.</li>
+ <li> Allow deleting extentions.</li>
+ <li> Generate a blank page for extention URL</li>
+ <li> Add pdf file for each extention, and ability to delete it.</li>
+ <li> Display the file on the URL of the extention.</li>
+ <li> Store traffic information for each extention.</li>
+ <li> Display traffic information to the user</li>
+ </ol>
+---
 
-### Academic Honesty
-
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+This repository was cloned from Dave Gray's repo during the [YouTube Tutorial](https://www.youtube.com/watch?v=nI8PYZNFtac&list=PL0Zuz27SZ-6PRCpm9clX0WiBEMB70FWwd&index=4).
